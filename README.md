@@ -1,0 +1,1 @@
+Финальный проект завершаюший курс по html,css,JavaScript сделан по макету с фигмы https://www.figma.com/file/UBaXIaY5FwCYXhNxkVa5Xv/Front-end-project?type=design&node-id=0-1&mode=design&t=UJPRJZ6PtrC7Os8G-0
