@@ -1,0 +1,439 @@
+.events__near {
+  padding-top: 120px;
+}
+
+.near__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.near__head__title {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.near__head__title h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.near__box__link {
+  width: 240px;
+  height: 44px;
+  background-color: rgba(151, 202, 209, 0.1215686275);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.near__box__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #00798a;
+}
+
+.near__box__link p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #00798a;
+}
+
+.see__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #00798a;
+  text-decoration: none;
+}
+
+.see__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #00798a;
+}
+
+.near__events__box {
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 36px;
+  column-gap: 36px;
+  row-gap: 86px;
+}
+
+.near__events__box a {
+  text-decoration: none;
+  color: #212121;
+  position: relative;
+}
+
+.near__events__box a:hover h3 {
+  text-decoration: underline;
+  text-decoration-color: #212121;
+}
+
+.events__near__container__list h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 12px;
+}
+
+.near__picture {
+  max-width: 100%;
+  height: 153px;
+  border-radius: 8px;
+}
+
+.flag {
+  position: absolute;
+  width: clamp(25px, 50%, 106px);
+  left: 10px;
+  top: 5px;
+}
+
+.near__box__name {
+  padding-top: 20px;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+.near__going__ticket {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.near__event__day {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.near__ticket p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.near__online {
+  padding-top: 90px;
+}
+
+.near__online h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+.near__event__day p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.near__going {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.near__going p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.near__ticket {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* плажка!! */
+@keyframes blink {
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  width: 105px;
+  height: 20px;
+  top: 7px;
+  left: 6px;
+  padding: 2px 8px 2px 4px;
+  gap: 3px;
+  border-radius: 4px;
+  animation: blink 2s infinite;
+}
+
+.overlay__online {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  width: 105px;
+  height: 20px;
+  top: 7px;
+  left: 6px;
+  padding: 2px 8px 2px 4px;
+  gap: 3px;
+  border-radius: 4px;
+  animation: blink 2s infinite;
+  margin-left: -170px;
+}
+
+.overlay__online p {
+  color: rgba(112, 112, 112, 1);
+
+}
+
+
+/* медиа! */
+
+@media (max-width: 992px) {
+  .near__going {
+    padding-top: 8px;
+  }
+
+  .near__head__title h2 {
+    font-size: 24px;
+  }
+
+  .near__event__day {
+    padding-top: 8px;
+  }
+
+  .near__ticket {
+    padding-top: 8px;
+  }
+
+  .near__online h2 {
+    font-size: 24px;
+  }
+
+  .events__near {
+    padding-top: 60px;
+  }
+
+  .near__box__link p {
+    font-size: 16px;
+  }
+
+  .see__link {
+    font-size: 14px;
+  }
+
+  .near__events__box {
+    column-gap: 36px;
+    row-gap: 46px;
+  }
+
+  .near__events__box h3 {
+    font-size: 16px;
+  }
+
+  .near__events__box p {
+    font-size: 12px;
+  }
+
+  .near__picture {
+    height: 95px;
+  }
+
+  .near__box__name {
+    padding-top: 12px;
+  }
+
+  .near__online {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events__near {
+    padding-top: 25px;
+  }
+
+  .near__events__box {
+    padding-top: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 36px;
+    row-gap: 36px;
+  }
+
+  .near__box__link {
+    width: 190px;
+    height: 30px;
+  }
+
+  .near__box__link p {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .near__event__day {
+    padding-top: 0;
+  }
+
+  .near__head__title h2 {
+    font-size: 20px;
+  }
+
+  .near__going {
+    padding-top: 0;
+  }
+
+  .near__ticket {
+    padding-top: 0;
+  }
+
+  .near__online h2 {
+    font-size: 20px;
+  }
+
+  .near__event__day svg {
+    display: none;
+  }
+
+  .near__events__box {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .near__events__box li {
+    border-top: 1px solid #d9d9d9;
+  }
+
+  .near__events__box a {
+    padding-top: 10px;
+    display: flex;
+    gap: 3px;
+  }
+
+  .near__events__box p {
+    font-size: 10px;
+  }
+
+  .events__near__container__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .events__near__container__list h3 {
+    order: 1;
+    padding-top: 0;
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .near__picture {
+    width: 110px;
+    height: 65px;
+  }
+
+  .near__events__box li img {
+    object-fit: cover;
+
+  }
+
+  .near__box__name {
+    padding-top: 0;
+    padding-left: 3px;
+    order: 2;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .near__event__day {
+    order: 0;
+    padding-left: 3px;
+  }
+
+  .near__event__day p {
+    color: #7c6f50;
+    padding-top: 0;
+  }
+
+  .near__event__day img {
+    display: none;
+  }
+
+  .near__going__ticket {
+    display: none;
+  }
+
+  .near__ticket {
+    display: none;
+  }
+
+  .near__picture__box {
+    flex-shrink: 0;
+  }
+
+  .see__link {
+    display: none;
+  }
+
+  .near__box__link {
+    font-size: 14px;
+    height: 30px;
+    max-width: 165px;
+  }
+
+  .near__box__link img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .near__head__title {
+    gap: 10px;
+  }
+
+  .near__events__box li:nth-child(4),
+  .near__events__box li:nth-child(5),
+  .near__events__box li:nth-child(6),
+  .near__events__box li:nth-child(7),
+  .near__events__box li:nth-child(8) {
+    display: none;
+  }
+
+  .overlay__online {
+    margin-left: -10px;
+    top: 50px;
+    background-color: #fff;
+  }
+}
